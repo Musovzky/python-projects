@@ -5,4 +5,5 @@ Notes, assignments and projects<br>
 
 08-08-2016: <br>
 "Tetris" project files uploaded<br>
-"Conway's Game of Life" project files uploaded
+"Conway's Game of Life" project files uploaded<br>
+"Hangman" project files uploaded
