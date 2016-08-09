@@ -10,7 +10,7 @@
 # A Gentle Introduction to Programming Using Python
 # This program is created from the template provided in the course materials
 
-# Note: A word list (words.txt) and a python interpreter is needed to
+# Note: A word list (words.txt) and a python interpreter are needed to
 # run the program
 
 import string
