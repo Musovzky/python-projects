@@ -9,7 +9,7 @@
 # A Gentle Introduction to Programming Using Python
 # This program is created from the template provided in the course materials
 
-# Note: Graphics.py and a python interpreter is needed to run the program
+# Note: Graphics.py and a python interpreter are needed to run the program
 
 from graphics import *
 import random
