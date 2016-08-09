@@ -1,7 +1,7 @@
 # tetris_mit-ocw_musovzky.py
 # Python version: 2.7.11
-# Author: Musovzky (viviyi4@gmail.com)
-# Created: August 8, 2016
+# Created by: Musovzky (viviyi4@gmail.com)
+# Created on: August 8, 2016
 
 # A simple Tetris game controlled with keyboard
 # Features: Scoring, levels, pause/resume, restart
