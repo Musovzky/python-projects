@@ -1,9 +1,8 @@
-# python-projects
+# python-projects<br>
 
-MIT OpenCourseWare: A Gentle Introduction to Programming Using Python
+MIT OpenCourseWare: A Gentle Introduction to Programming Using Python<br>
+Notes, assignments and projects<br>
 
-Notes, assignments and projects
-
-08-08-2016: 
-"Tetris" project files uploaded
+08-08-2016: <br>
+"Tetris" project files uploaded<br>
 "Conway's Game of Life" project files uploaded
