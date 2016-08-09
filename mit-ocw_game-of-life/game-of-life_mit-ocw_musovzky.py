@@ -1,6 +1,6 @@
 # game-of-life_mit-ocw_musovzky.py
 # Python version: 3.4.3
-# Author: Musovzky (viviyi4@gmail.com)
+# Created by: Musovzky (viviyi4@gmail.com)
 # Created on: July 24, 2016
 
 # Conway's Game of Life is a zero-player game
