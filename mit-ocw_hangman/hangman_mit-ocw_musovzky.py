@@ -41,13 +41,13 @@ def chooseLevel():
           "\n - Savvy (3): 4 guesses")
     while True:
         myLevel = input("> Choose your level: ")
-        if myLevel == "1":
+        if myLevel == 1:
             return 8
             break
-        if myLevel == "2":
+        if myLevel == 2:
             return 6
             break
-        if myLevel == "3":
+        if myLevel == 3:
             return 4
             break
         else:
