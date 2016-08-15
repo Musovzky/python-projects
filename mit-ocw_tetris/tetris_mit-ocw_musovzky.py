@@ -277,6 +277,10 @@ class Board:
 ######################################
 class ScoreBoard:
 
+    SCORE_LIST = {
+        1:2000,2:4000,3:7000,4:11000,5:16000,6:22000,7:29000,8:37000,9:46000,
+        10:56000,11:67000}
+        
     def __init__(self,win):
         self.height = 0.2 * BOARD_HEIGHT * BLOCK_SIZE
         self.width = 0.5 * BOARD_WIDTH * BLOCK_SIZE
@@ -296,11 +300,11 @@ class ScoreBoard:
         return 100*(11-self.level)
 
     def add_score(self,rows):
-        self.score += 10 * BOARD_WIDTH * rows ** 2 * (1 + 0.05 * self.level)
+        self.score += 10 * BOARD_WIDTH * rows ** 2 * (1 + 0.2 * (self.level-1))
         self.score_text.setText("Score\n%i" %self.score)
 
     def add_level(self):
-        if self.score >= 1000 * (2**self.level):
+        if self.score >= self.SCORE_LIST[self.level]:
             self.level += 1
             self.level_text.setText("Level\n%i" %self.level)
             return True
